@@ -13,6 +13,6 @@
 (load "~/.emacs.d/core/ide/projects.el")
 
 (load "~/.emacs.d/core/keybindings.el")
+
 (load "~/.emacs.d/appearance.el")
-
-
+(load "~/.emacs.d/customization.el")

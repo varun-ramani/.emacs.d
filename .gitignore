@@ -1,4 +1,9 @@
-auto-save-list/
-elpa/
 network-security.data
+projectile*
+auto-save-list
+elpa
+eclipse.jdt.ls
+workspace
+*lsp*
+.dap-breakpoints
 backups

@@ -1,12 +1,14 @@
 (use-package ivy
-  :ensure t)
+  :ensure t
+  :config
+  (ivy-mode))
 
 (use-package counsel
   :ensure t
-  :init
+  :config
   (counsel-mode))
 
 (use-package which-key
   :ensure t
-  :init
+  :config
   (which-key-mode))

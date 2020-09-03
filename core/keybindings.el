@@ -40,6 +40,13 @@
  "SPC w j" '(evil-window-down :which-key "Bottom window")
  "SPC w h" '(evil-window-left :which-key "Left window"))
 
+;; Buffer keybindings
+(general-define-key
+ :keymaps 'normal
+ "SPC b" '(:which-key "Buffers")
+ "SPC b s" '(switch-to-buffer :which-key "Switch to buffer")
+ "SPC b k" '(kill-buffer :which-key "Kill a buffer"))
+
 
 ;; File keybindings
 (general-define-key
@@ -64,4 +71,8 @@
 ;; Org Mode keybindings
 (general-define-key
  :keymaps 'normal
- "SPC o" '(:which-key "Org Mode"))
+ "SPC o" '(:which-key "Org Mode")
+ "SPC o a" '(:which-key "Org agenda")
+ "SPC o a a" '(org-agenda-file-to-front :which-key "Add this file to agenda")
+ "SPC o a r" '(org-agenda-file-to-front :which-key "Remove file from agenda")
+ "SPC o a v" '(org-agenda-list :which-key "View agenda"))

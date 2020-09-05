@@ -53,7 +53,9 @@
  :keymaps 'normal
  "SPC f" '(:which-key "File")
  "SPC f f" '(counsel-find-file :which-key "Find file")
- "SPC f w" '(save-buffer :which-key "Write file"))
+ "SPC f w" '(save-buffer :which-key "Write file")
+ "SPC f r" '(rename-file :which-key "Rename file")
+ "SPC f d" '(delete-file :which-key "Delete file"))
 
 ;; Projectile keybindings
 (general-define-key

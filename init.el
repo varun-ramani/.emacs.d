@@ -14,6 +14,9 @@
 
 (load "~/.emacs.d/core/keybindings.el")
 
+(load "~/.emacs.d/core/org/org-custom.el")
+
 (setq custom-file "~/.emacs.d/customization.el")
+
 (load "~/.emacs.d/customization.el")
 

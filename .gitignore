@@ -8,3 +8,4 @@ workspace
 .dap-breakpoints
 backups
 .cache
+url/cache

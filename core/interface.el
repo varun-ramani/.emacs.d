@@ -1,12 +1,15 @@
-(use-package ivy
+(use-package helm
   :ensure t
-  :config
-  (ivy-mode))
+  :bind
+  ("M-x" . helm-M-x))
 
-(use-package counsel
+(helm-mode 1)
+
+(use-package helm-projectile
   :ensure t
-  :config
-  (counsel-mode))
+  :bind
+  ("C-c p f" . helm-projectile-find-file)
+  ("C-c p p" . helm-projectile-switch-project))
 
 (use-package treemacs
   :ensure t)
